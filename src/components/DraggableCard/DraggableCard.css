@@ -1,0 +1,29 @@
+.draggable-card {
+  position: absolute;
+  z-index: 10;
+
+  width: max-content;
+  box-sizing: border-box;
+
+  cursor: grab;
+  touch-action: none;
+  user-select: none;
+
+  transform-origin: center;
+  transition: box-shadow 0.2s ease;
+}
+
+.draggable-card:active {
+  cursor: grabbing;
+}
+
+.draggable-card.is-dragging {
+  z-index: 100;
+  cursor: grabbing;
+
+  /* Drag karte waqt card ka size nahi badlega */
+  scale: 1;
+  box-shadow: 0 18px 35px rgba(40, 30, 20, 0.16);
+
+  transition: none;
+}

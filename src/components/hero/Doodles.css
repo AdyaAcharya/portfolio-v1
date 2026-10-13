@@ -1,0 +1,82 @@
+.hero-doodles {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.doodle-image {
+  position: absolute;
+  display: block;
+  height: auto;
+  object-fit: contain;
+  user-select: none;
+  pointer-events: none;
+}
+
+/* Individual doodle positions */
+
+/* Laptop — left side, near Curious card */
+.doodle-laptop {
+  width: 58px;
+  top: 38%;
+  left: 10%;
+  transform: rotate(-10deg);
+}
+
+/* Coffee — near Coffee & code card */
+.doodle-coffee {
+  width: 52px;
+  top: 58%;
+  right: 13%;
+  left: auto;
+  transform: rotate(7deg);
+}
+
+/* Arrow — upper-right decorative accent */
+.doodle-arrow {
+  width: 45px;
+  top: 39%;
+  right: 8%;
+  transform: rotate(8deg);
+}
+
+/* Point — small accent near upper-left */
+.doodle-point {
+  width: 28px;
+  top: 25%;
+  left: 25%;
+  transform: rotate(-12deg);
+}
+
+/* Sparkles — upper-right, away from heading */
+.doodle-sparkel {
+  width: 35px;
+  top: 18%;
+  right: 24%;
+  transform: rotate(8deg);
+}
+
+/* Keep your original squiggle */
+.doodle-squiggle {
+  width: 85px;
+  bottom: 12%;
+  left: 8%;
+  transform: rotate(-3deg);
+}
+/* Right-side laptop */
+.doodle-laptop-right {
+  width: 58px;
+  top: 58%;
+  right: 9%;
+  transform: rotate(8deg);
+}
+
+/* Small point doodle on the right */
+.doodle-point-right {
+  width: 28px;
+  top: 48%;
+  right: 19%;
+  transform: rotate(12deg);
+}
